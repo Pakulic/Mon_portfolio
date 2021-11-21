@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Christelle Pakulic, chargée de commmunication et développeuse web. Découvrez mon CV, mon portfolio, mes recommandations et n'hésitez pas à me contacter">
+  <meta name="author" content="Christelle-Pakulic" />
+
+  <!-- Ajout du framework Tailwind  -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+
+  <!-- Lien pour ajouter les icones fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- Titre de la page -->
+  <title>Mentions mégales : Portfolio de Christelle Pakulic chargée de commmunication et développeuse web </title>
+</head>
+
+<body class='text-white bg-gradient-to-t from-blue-800 to-black '>
+
+  <!--_________________________________ HEADER -  BAR DE NAVIGATION ______________________________ -->
+
+  <header class="fixed w-screen ">
+    <nav class="bg-gradient-to-t from-blue-800 to-black py-5 w-full">
+      <ul
+        class="flex flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col gap-2 text-center flex-col justify-around uppercase">
+        <li><a href="index.html">
+            <p>Accueil</p>
+          </a>
+        </li>
+        <li
+          class=" font-bold px-2 pb-1 bg-yellow-400 text-blue-900 border-2 border-transparent hover:bg-transparent hover:border-yellow-400 hover:text-yellow-400 ">
+          <a href="index.html#contact">
+            <p>Contact</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+
+    <!--_____________________________________ PAGE MENTIONS LEGALES_____________________________ -->
+    <section id="mentionslegales"
+      class="flex flex-col justify-center 2xl:h-screen xl:h-screen lg:h-screen md:h-screen  2xl:pt-0 xl:pt-0 lg:pt-0 md:pt-0 sm:pt-20 pt-20 2xl:pb-0 xl:pb-0 lg:pb-20 md:pb-56 sm:pb-72 pb-72  justify-center items-center bg-gradient-to-t from-blue-800 to-black ">
+
+      <!-- titre de la section -->
+      <div class="pt-20 h-40">
+        <div class="bg-yellow-400 m-auto h-2 w-48"></div>
+        <h2 class="font-bold uppercase text-xl text-center">Mentions légales</h2>
+      </div>
+
+
+      <!-- div qui contient et répartit les 4 listes de contenus sur la page-->
+
+      <div class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col flex-col justify-around items-center h-3/4">
+
+        <!-- la base 'article' permet ici de répartir les 4 listes sur 2 colonnes pour les grands écrans' -->
+
+        <article class="flex flex-col  justify-evenly items-center text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4 w-3/4 h-3/4">
+          <!-- liste 1 -->
+
+          <ul>
+            <li class="mt-2">
+              <h3 class="font-bold">EDITEUR</h3>
+            </li>
+            <li class="mt-2">
+              <p>Editeur : Christelle Pakulic</p>
+            </li>
+          </ul>
+
+          <!-- liste 2 -->
+          <ul>
+            <li class="mt-2">
+              <h3 class="font-bold">HEBERGEMENT</h3>
+            </li>
+            <li class="mt-2">
+              <p>OVH</p>
+              <p>SAS au capital de 10 069 020 €
+                RCS Lille Métropole 424 761 419 00045
+                Code APE 2620Z
+                N° TVA : FR 22 424 761 419
+                Siège social : 2 rue Kellermann - 59100 Roubaix - France
+              </p>
+            </li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col justify-evenly items-center text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4 w-3/4 h-full">
+          <ul>
+            <!-- liste 3 -->
+
+            <li class="mt-2">
+              <h3 class="font-bold">DROITS D'UTILISATION ET DE REPRODUCTION</h3>
+            </li>
+            <li>
+              <p>
+                En application de la loi du 11 mars 1957 (art. 41) et du code de la propriété intellectuelle du 1er
+                juillet 1992 : L’ensemble des textes, illustrations, données, photographies, plans, dessins, animations,
+                sons et vidéos inclus dans ce site Internet sauf mention contraire explicite, est protégé par le droit
+                d’auteur quelle qu’en soit la source.
+
+                Les données disponibles sur ce site en consultation et téléchargement ne doivent en aucun cas être
+                modifiées.
+              </p>
+            </li>
+          </ul>
+
+          <!-- liste 4 -->
+
+          <ul>
+            <li class="mt-2">
+              <h3 class="font-bold">CREDITS PHOTOGRAPHIQUES</h3>
+            </li>
+            <li class="mt-2">
+              <p> Les fonds décran proviennent de la banque d'images Pixabay.</p>
+            </li>
+
+          </ul>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!--_____________________________________ FOOTER ______________________________ -->
+
+  <footer
+    class="fixed bottom-0 bg-gradient-to-t from-blue-800 pb-6 to-black flex justify-center text-center w-full h-8">
+    <nav>
+      <ul class="flex flew-row justify-around items-center ">
+        <li><a href="mentions-legales.html">
+            <p>Mentions légales</p>
+          </a>
+        <li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr" class="m-0 p-0">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Christelle Pakulic, chargée de commmunication et développeuse web. Découvrez mon CV, mon portfolio, mes recommandations et n'hésitez pas à me contacter">
+  <meta name="author" content="Christelle-Pakulic" />
+
+  <!-- Ajout du framework Tailwind  -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+
+  <!-- Lien pour ajouter les icones fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- Titre de la page -->
+  <title>Portfolio de Christelle Pakulic chargée de commmunication et développeuse web </title>
+</head>
+
+<body class='text-white bg-gradient-to-t from-blue-800 to-black m-0 p-0 font-sans '>
+
+
+  <!--_________________________________ HEADER -  BAR DE NAVIGATION ______________________________ -->
+
+  <header class="fixed w-full">
+    <nav class="bg-gradient-to-t from-blue-800 to-black py-5 w-full">
+      <ul
+        class="flex flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col gap-2 text-center flex-col justify-around uppercase">
+        <li><a href="#accueil">
+            <p>Accueil</p>
+          </a>
+        <li><a href="#chiffrescles">
+            <p>Chiffres clés</p>
+          </a></li>
+        <li><a href="#competences">
+            <p>Compétences</p>
+          </a></li>
+        <li><a href="#portfolio">
+            <p>Portfolio</p>
+          </a></li>
+        <li><a href="#recommandations">
+            <p>Recommandations</p>
+          </a></li>
+        <li
+          class=" font-bold px-2 pb-1 bg-yellow-400 text-blue-900 border-2 border-transparent hover:bg-transparent hover:border-yellow-400 hover:text-yellow-400 ">
+          <a href="#contact">
+            <p>Contact</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class=" w-full m-0 p-0 ">
+    <!--_____________________________________ SECTION PRESENTATION______________________________ -->
+    <section id="accueil"
+      class=' bg-fixed 2xl:text-left xl:text-left lg:text-left md:text-left sm:text-center text-center 2xl:h-screen xl:h-screen lg:h-screen md:h-screen  m-auto 2xl:pt-20 xl:pt-20 lg:pt-20 md:pt-20 sm:pt-64 pt-64 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-20 sm:pb-20 pb-20'
+      style="background-image: url('img/fond-ecran1.jpg')">
+
+      <!-- article qui contient la photo et le texte de présentation et les positionnent sur une ligne ou en colonne selon la taille de l'écran, grace à un display flex-->
+      <article class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col md:text-center sm:flex-col flex-col
+            justify-center items-center m-auto 2xl:w-3/4 xl:w-3/4 lg:w-3/4 md:w-3/4 w-11/12 h-full md:pb-10">
+
+        <!-- article 1 :photo-->
+        <div class="mx-auto 2xl:w-1/2 xl:w-1/2 lg:w-1/2 border-collapse text-center">
+          <img
+            class="inline object-cover object-top 2xl:w-96 2xl:h-96 xl:w-96 xl:h-96 lg:w-10/12 lg:h-80 md:w-72 md:h-72 w-56 h-56 mr-2 rounded-full"
+            src="img/photoCV.jpg" alt="image" />
+        </div>
+
+        <!-- article 2 :description-->
+
+        <div class="mx-auto  2xl:w-1/2 xl:w-1/2 lg:w-1/2 w-10/12 border-collapse">
+          <h1 class="font-bold 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-2xl text-2xl py-2">Christelle Pakulic</h1>
+          <h2 class="font-bold 2xl:text-xl xl:text-xl lg:text-xl md:text-xl text-xl py-2"> Chargée de communication &
+            développeuse web </h2>
+          <p class="py-4 text-sm">
+            En tant que chargée puis responsable de la communication, depuis plus de douze ans, j’ai acquis les
+            compétences stratégiques et techniques du métier : relations presse, gestion de projets éditoriaux,
+            digitaux, audiovisuels et événementiels.
+          </p>
+
+          <!-- article 2 :boutons-->
+          <div
+            class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col justify-center items-center">
+            <a href="#contact">
+              <p
+                class="font-bold p-2 bg-yellow-400 text-blue-900 border-2 border-transparent hover:bg-transparent hover:border-yellow-400 hover:text-yellow-400 w-48 m-2">
+                Me contacter</p>
+            </a>
+            <a href="files/CV_Christelle_Pakulic.pdf" download="">
+              <p
+                class="font-bold p-2 bg-transparent text-white border-2 border-white  hover:bg-white hover:text-blue-900 w-48 m-2">
+                Télécharger le CV</p>
+            </a>
+          </div>
+          <!-- article 2 :liens vers les réseaux sociaux-->
+
+          <ul class='mt-5 flex flex-row gap-5 text-2xl  justify-center '>
+            <li><a href="https://www.facebook.com/profile.php?id=100002469000688"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li><a href="https://twitter.com/pakulic"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/christelle-pakulic/"><i class="fab fa-linkedin"></i></a>
+            <li><a href="#discord"><i class="fab fa-discord"></i></a>
+            <li><a href="https://github.com/Pakulic/"><i class="fab fa-github"></i></a>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!--_____________________________________ SECTION CHIFFRE CLES______________________________ -->
+    <section id="chiffrescles"
+      class="2xl:h-screen xl:h-screen lg:h-screen h-auto w-full lg:pt-20 md:pt-20 sm:pt-64 pt-64 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-20 sm:pb-64 pb-56"
+      style="background-image: url('img/fond-ecran2.jpg')">
+
+      <!-- titre de la section -->
+      <div>
+        <div class=" bg-yellow-400 mx-auto h-2 w-48"></div>
+        <h3 class="font-bold text-center uppercase text-2xl">Chiffres clés</h3>
+      </div>
+
+      <!-- div qui contient les 4 articles sous forme de grilles -->
+
+      <div
+        class="grid 2xl:grid-cols-4 2xl:grid-rows-1  xl:grid-cols-4 xl:grid-rows-1  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 sm:grid-rows-2  grid-col-1  mx-auto text-center text-white justify-around items-center 2xl:h-full xl:h-full lg:h-full h-3/4 2xl:w-full xl:w-full lg:w-full md:w-3/4 ">
+
+        <!-- chiffre clé n°1 -->
+
+        <div class="2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-base h-1/3 mt-2">
+          <div
+            class="flex justify-center items-center mx-auto bg-white rounded-full py-12 2xl:h-32 2xl:w-32 xl:h-32 xl:w-32 lg:h-32 lg:w-32 w-28 h-28">
+            <h3 class="font-bold  text-center text-blue-900 text-lg">12 ans</h3>
+          </div>
+          <p class=" mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 md:w-3/4 w-10/12">d’expérience en communication et
+            administrateur web.</p>
+        </div>
+
+        <!-- chiffre clé n°2 -->
+
+        <div class="2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-base h-1/3 mt-2">
+          <div
+            class="flex justify-center items-center mx-auto bg-white rounded-full py-12 2xl:h-32 2xl:w-32 xl:h-32 xl:w-32 lg:h-32 lg:w-32 w-28 h-28">
+            <h3 class="font-bold text-blue-900 text-lg">200K</h3>
+          </div>
+          <p class="mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 md:w-3/4 w-10/12">euros et visiteurs/an pour le principal site
+            web.</p>
+        </div>
+
+        <!-- chiffre clé n°3 -->
+
+        <div class="2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-base h-1/3 mt-2">
+          <div
+            class="flex justify-center items-center mx-auto bg-white rounded-full py-12 2xl:h-32 2xl:w-32 xl:h-32 xl:w-32 lg:h-32 lg:w-32 w-28 h-28">
+            <h3 class="font-bold text-blue-900 text-lg">15K</h3>
+          </div>
+          <p class=" mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 md:w-3/4 w-10/12">destinataires pour les bilans d’activité,
+            de
+            nombreux supports print.</p>
+        </div>
+
+        <!-- chiffre clé n°4 -->
+
+        <div class="2xl:text-xl xl:text-xl lg:text-lg md:text-lg text-base h-1/3 mt-2">
+          <div
+            class="flex justify-center items-center mx-auto bg-white rounded-full py-12 2xl:h-32 2xl:w-32 xl:h-32 xl:w-32 lg:h-32 lg:w-32 w-28 h-28">
+            <h3 class="font-bold text-blue-900 text-lg">2</h3>
+          </div>
+          <p class=" mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 md:w-3/4 w-10/12 ">stratégies de 5 ans et 2 changements
+            d’identité Air PACA et AtmoSud.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--_____________________________________ SECTION COMPETENCES______________________________ -->
+
+    <section id="competences"
+      class="flex flex-col justify-center 2xl:h-screen xl:h-screen lg:h-screen bg-gradient-to-t from-blue-800 to-black 2xl:pt-20 xl:pt-20 lg:pt-20 md:pt-20 sm:pt-64 pt-64 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-20 sm:pb-64 pb-64 ">
+
+      <!-- titre de la section -->
+      <article class="h-1/12">
+        <div class="bg-yellow-400 m-auto h-2 w-48"></div>
+        <h3 class="font-bold uppercase text-2xl text-center">Compétences</h3>
+      </article>
+
+      <!-- div qui contient les trois articles et les positionnent sur une ligne ou en colonne selon la taille de l'écran, grace à un display flex-->
+      <div class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col flex-wrap
+            justify-around items-center 2xl:h-full xl:h-full lg:h-full md:h-full">
+
+
+        <!-- article compétence n°1 -->
+        <article
+          class="flex flex-col justify-evenly   text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4   md:w-1/2 w-10/12 2xl:h-1/3 xl:h-1/3 lg:h-1/2 md:h-1/3 h-1/2 border-2 border-white mt-2">
+          <i class="text-3xl text-yellow-400 fas fa-comments"></i>
+          <p class="text-xl text-yellow-400 font-bold">Communication</p>
+          <div class="flex  2xl:flex-row xl:flex-row lg:flex-row md:flex-row flex-col justify-center gap-2">
+            <ul>
+              <li>Stratégie / Plan d'actions</li>
+              <li>Veille, évaluation, enquêtes</li>
+              <li>Community manager</li>
+            </ul>
+            <ul>
+              <li>Pilotage de projets web,</li>
+              <li>print et évènementiels</li>
+              <li>Relations presse</li>
+              <li>Fortes compétences rédactionnelles</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- article compétence n°2 -->
+
+        <article
+          class="flex flex-col justify-evenly  text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4   md:w-1/2 w-10/12 2xl:h-1/3 xl:h-1/3 lg:h-1/2 md:h-1/3 h-1/2 border-2 border-white mt-2">
+          <i class="text-3xl text-yellow-400 fas fa-code"></i>
+          <p class="text-xl text-yellow-400 font-bold">Développement</p>
+          <div class="flex flex-row justify-center gap-2">
+            <ul>
+              <li>Maquettage</li>
+              <li>Html/css/javascript</li>
+              <li>Tailwind </li>
+              <li>Vue Js </li>
+            </ul>
+            <ul>
+              <li>Bases de données</li>
+              <li>Modèle MVC</li>
+              <li>POO</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- article compétence n°3-->
+
+        <article
+          class="flex flex-col justify-evenly text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4   md:w-1/2 w-10/12 2xl:h-1/3 xl:h-1/3 lg:h-1/2 md:h-1/3 h-1/2 border-2 border-white mt-2">
+          <i class="text-3xl text-yellow-400 fas fa-tasks"></i>
+          <p class="text-xl text-yellow-400 font-bold">Management</p>
+          <div class="flex flex-row justify-center gap-2">
+            <ul>
+              <li>Pilotage de projet</li>
+              <li>Gestion budgetaire</li>
+              <li>Accompagnement des équipes</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--_____________________________________ SECTION PORTFOLIO______________________________ -->
+
+    <section id="portfolio"
+      class="flex flex-col justify-center items-center 2xl:h-screen xl:h-screen lg:h-screen  w-full  2xl:pt-0 xl:pt-0 lg:pt-0 md:pt-0 sm:pt-40 pt-40 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-40 sm:pb-72 pb-72"
+      style="background-image: url('img/fond-ecran1.jpg')">
+
+      <!-- titre de la section -->
+      <div class="pt-20 h-1/12">
+        <div class="bg-yellow-400 m-auto h-2 w-48"></div>
+        <h3 class="font-bold uppercase text-2xl text-center mb-4">Portfolio</h3>
+      </div>
+
+      <!-- les portfolios -->
+
+      <div
+        class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col flex-wrap gap-3 justify-around items-center 2xl:h-full xl:h-full lg:h-full md:h-full">
+        <article
+          class="flex flex-col justify-evenly text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 2xl:h-1/3 xl:h-1/3 lg:h-1/4 md:h-1/4 h-2/3 mt-4">
+          <img class="h-full object-cover" src="img/Wavy.png" alt="site Wavy Fornite">
+        </article>
+        <article
+          class="flex flex-col justify-evenly text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 2xl:h-1/3 xl:h-1/3 lg:h-1/4 md:h-1/4 h-2/3 mt-4">
+          <a href="https://github.com/Pakulic/TP_site_Altereko"><img class="h-full object-cover" src="img/Altereko.png"
+              alt="site Altereko"></a>
+        </article>
+        <article
+          class="flex flex-col justify-evenly text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 2xl:h-1/3 xl:h-1/3 lg:h-1/4 md:h-1/4 h-2/3 mt-4">
+          <a href="https://www.ccr13.fr/"><img class="h-full object-cover" src="img/ccr13.png" alt="site CCR13"></a>
+        </article>
+      </div>
+    </section>
+
+
+    <!--_____________________________________ SECTION RECOMMANDATIONS______________________________ -->
+    <section id="recommandations"
+      class="flex flex-col justify-center 2xl:h-screen xl:h-screen lg:h-screen 2xl:pt-0  w-full  xl:pt-0 lg:pt-0 md:pt-0 sm:pt-40 pt-40 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-20 sm:pb-96 pb-96 justify-center items-center bg-gradient-to-t from-blue-800 to-black ">
+
+      <!-- titre de la section-->
+      <div class="pt-20 h-1/4">
+        <div class="bg-yellow-400 m-auto h-2 w-48"></div>
+        <h3 class="font-bold uppercase text-2xl text-center mb-6">Recommandations</h3>
+      </div>
+      <!-- div qui contient les trois articles et les positionnent sur une ligne ou en colonne selon la taille de l'écran, grace à un display flex-->
+      <div class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col flex-wrap	
+            justify-around items-center 2xl:h-full xl:h-full lg:h-full md:h-full h-full">
+
+
+        <!-- article recommandation n°1 -->
+
+        <article
+          class="flex flex-col justify-center items-center  text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4   md:w-1/2 w-10/12 2xl:h-3/4 xl:h-3/4 lg:h-3/4 md:h-1/2 h-1/2 border-2 border-white h-min-auto mt-2">
+          <ul class="flex flex-col justify-center items-center gap-2 m-auto">
+            <li><i class="text-3xl text-yellow-400 fas fa-quote-left"></i></li>
+            <li>
+              <p class="text-yellow-400 h-2/3 ">Elle s’est révélée être un atout majeur pour le bon fonctionnement des
+                structures dans lesquelles nous avons travaillé ensemble. Je suis persuadé qu’elle sera également un
+                excellent élément pour votre société.</p>
+            </li>
+            <li><a class=" text-yellow-400 underline" href="detail-recommandation-1.html">Lire la recommandation</a>
+            </li>
+          </ul>
+          <ul class="flex flex-row justify-center items-center gap-2 mx-auto mt-2">
+            <li class="text-4xl"><i class="fas fa-user"></i></li>
+            <li class="text-sm">
+              <p>Xavier VILLETARD</p>
+              <p>Ancien directeur d'AtmoSud</p>
+              <p>Responsable de production et développement</p>
+              <p>des offres Air chez OFIS Veolia</p>
+            </li>
+          </ul>
+        </article>
+
+
+        <!-- article recommandation n°2 -->
+
+        <article
+          class="flex flex-col justify-center items-center  text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4   md:w-1/2  w-10/12  2xl:h-3/4 xl:h-3/4 lg:h-3/4 md:h-1/2 h-1/2 border-2 border-white h-min-auto mt-2">
+          <ul class="flex flex-col justify-center items-center gap-2 m-auto">
+            <li><i class="text-3xl text-yellow-400 fas fa-quote-left"></i></li>
+            <li>
+              <p class="text-yellow-400 h-2/3">Peu de personnes sont à la fois bons managers, engagées et
+                compétentes. C’est le cas de Christelle, avec qui j’ai travaillé pendant plus de 4 ans.
+              </p>
+            </li>
+            <li><a class="underline text-yellow-400 " href="detail-recommandation-2.html">Lire la recommandation</a>
+            </li>
+          </ul>
+          <ul class="flex flex-row justify-center items-center gap-2 mx-auto mt-2">
+            <li class="text-4xl"><i class="fas fa-user"></i></li>
+            <li class="text-sm">
+              <p>Marie Anne LE MEUR</p>
+              <p>Coordinatrice sensibilisation/formation</p>
+              <p>à la qualité de l'air chez AtmoSud</p>
+            </li>
+          </ul>
+        </article>
+
+        <!-- article recommandation n°3 -->
+
+        <article
+          class="flex flex-col justify-center items-center  text-center 2xl:w-1/4 xl:w-1/4 lg:w-1/4   md:w-1/2  w-10/12  2xl:h-3/4 xl:h-3/4 lg:h-3/4 md:h-1/2 h-1/2 border-2 border-white h-min-auto mt-2">
+          <ul class="flex flex-col justify-center items-center gap-2 m-auto">
+            <li><i class="text-3xl text-yellow-400 fas fa-quote-left"></i></li>
+            <li>
+              <p class="text-yellow-400 h-2/3">Christelle est une personne très compétente. Elle a un excellent
+                relationnel et est très efficace dans le domaine de la communication.</p>
+            </li>
+          </ul>
+          <ul class="flex flex-row justify-center items-center gap-2 mx-auto mt-2">
+            <li class="text-4xl"><i class="fas fa-user"></i></li>
+            <li class="text-sm">
+              <p>Jean Louis PERFETTI</p>
+              <p> Ingénieur principal chez Métropole</p>
+              <p>Aix-Marseille-Provence (retraité)</p>
+            </li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!--_____________________________________ SECTION CONTACT______________________________ -->
+
+    <section id="contact"
+      class='flex-col justify-conter items-center 2xl:h-screen xl:h-screen lg:h-screen md:h-full sm:h-full 2xl:pt-20 xl:pt-20  w-full  lg:pt-20 md:pt-20 sm:pt-60 pt-60 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-20 sm:pb-20 pb-20 '
+      style="background-image: url('img/fond-ecran1.jpg')">
+
+      <!-- titre de la section-->
+
+      <div class="mx-auto border-collapse h-10">
+        <div class="bg-yellow-400 m-auto h-2 w-48"></div>
+        <h3 class="font-bold uppercase text-center text-2xl">Contact</h3>
+      </div>
+
+      <!-- div qui contient les deux articles et les positionnent sur une ligne ou en colonne selon la taille de l'écran, grace à un display flex-->
+      <div
+        class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col flex-col w-full items-center m-auto bg-fixed h-full">
+
+        <!--formulaire de contact-->
+        <form
+          class="flex flex-col justify-around items-center m-auto bg-gradient-to-t from-blue-900 to-black 2xl:w-1/3 xl:w-1/3 lg:w-1/3   md:w-1/2 sm:w-full w-full 2xl:h-1/2 xl:h-1/2 lg:h-1/2 h-3/4  border-collapse py-4 text-xl"
+          action="traitement/envoi_mail.php" method="POST">
+          <p class="py-4 text-xl text-center font-bold uppercase w-96">ENVOYER UN MESSAGE</p>
+          <div class="flex flex-row w-3/4">
+            <label for="nom" class="text-3xl"><i class="fas fa-user"></i></label>
+            <input id="nom" class="p-2 w-10/12 bg-transparent border-b-2 border-white" type="text" name="nom"
+              placeholder="Nom Prénom" required>
+          </div>
+          <div class="flex flex-row w-3/4">
+            <label for="mail" class="text-3xl"><i class="fas fa-at"></i></label>
+            <input id="mail" class="p-2 w-10/12 bg-transparent border-b-2 border-white" name="mail"
+              placeholder="Adresse mail" required>
+          </div>
+          <div id="messageerreur" class="text-yellow-400 font-bold"></div>
+          <div class="flex flex-row w-3/4">
+            <label for="sujet" class="text-3xl"><i class="far fa-envelope"></i></label>
+            <input id="sujet" class="p-2 w-10/12 bg-transparent border-b-2 border-white" type="text" name="sujet"
+              placeholder="sujet du message" required>
+          </div>
+          <div class="flex flex-row w-3/4">
+            <label for="message" class="text-3xl"><i class="far fa-envelope"></i></label>
+            <input id="message" class="p-2 w-10/12 bg-transparent border-b-2 border-white" type="text" name="message"
+              placeholder="message" required>
+          </div>
+          <button id="envoyer"
+            class="w-32 font-bold p-1 bg-yellow-400 text-blue-900 border-2 border-transparent  hover:bg-transparent hover:border-yellow-400 hover:text-yellow-400 mt-2"
+            name="envoyer" value="envoyer">Envoyer</button>
+        </form>
+
+
+        <!--article qui donne les autres moyens de contact-->
+
+        <article
+          class="flex flex-col justify-evenly text-center 2xl:w-1/3 xl:w-1/3 lg:w-1/3   md:w-1/2 sm:w-full w-full 2xl:h-1/2 xl:h-1/2 lg:h-1/2 h-3/4 bg-gradient-to-t from-blue-900 to-black mx-auto mt-5">
+          <ul
+            class="flex flex-col justify-evenly items-center m-auto h-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-3/4 w-full">
+            <li>
+              <p class="py-4 text-xl font-bold uppercase w-96 ">Mes coordonnées</p>
+            </li>
+            <li class='flex flex-row mt-2 w-3/4'>
+              <i class="text-3xl fas fa-user"></i>
+              <p class="2xl:text-xl xl:text-xl lg:text-xl text-lg w-96 ">Christelle PAKULIC</p>
+            </li>
+            <li class='flex flex-row mt-2 w-3/4'>
+              <i class="text-3xl fas fa-phone-alt"></i>
+              <p class="2xl:text-xl xl:text-xl lg:text-xl text-lg w-96 ">+33 6 33 87 93 00</p>
+            </li>
+            <li class="mt-2 w-3/4">
+              <a class='flex flex-row gap-3 ' href="https://www.linkedin.com/in/christelle-pakulic/">
+                <i class="text-3xl fab fa-linkedin"></i>
+                <p class="2xl:text-xl xl:text-xl lg:text-xl text-lg w-96 ">/christelle-pakulic</p>
+              </a>
+            </li>
+            <li id="discord" class="mt-2 w-3/4">
+              <a class='flex flex-row gap-3 ' href="https://discord.com/">
+                <i class="text-3xl fab fa-discord"></i>
+                <p class="2xl:text-xl xl:text-xl lg:text-xl text-lg w-96 ">Christelle#1730</p>
+              </a>
+            </li>
+          </ul>
+          <!--           <ul class='mt-5 flex flex-row justify-center gap-5 text-3xl'>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/pakulic"><i class="fab fa-twitter"></i></a></li>
+          </ul> -->
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!--_____________________________________ FOOTER ______________________________ -->
+
+  <footer
+    class="fixed bottom-0 bg-gradient-to-t from-blue-800 pb-6 to-black flex justify-center text-center w-full h-8">
+    <nav>
+      <ul class="flex flew-row justify-around items-center ">
+        <li><a href="mentions-legales.html">
+            <p>Mentions légales</p>
+          </a>
+        <li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
